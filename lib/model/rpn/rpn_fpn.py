@@ -4,8 +4,8 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 
 from model.utils.config import cfg
-from proposal_layer_fpn import _ProposalLayer_FPN
-from anchor_target_layer_fpn import _AnchorTargetLayer_FPN
+from model.rpn.proposal_layer_fpn import _ProposalLayer_FPN
+from model.rpn.anchor_target_layer_fpn import _AnchorTargetLayer_FPN
 from model.utils.net_utils import _smooth_l1_loss
 
 import numpy as np

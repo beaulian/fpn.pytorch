@@ -6,9 +6,9 @@
 
 import xml.etree.ElementTree as ET
 import os
-import cPickle
+import six.moves.cPickle as cPickle
 import numpy as np
-from voc_eval import voc_ap
+from datasets.voc_eval import voc_ap
 
 
 

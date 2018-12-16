@@ -1,3 +1,6 @@
 *.pyc
 *.so
 *.a
+.idea/
+build/
+*.egg-info/
